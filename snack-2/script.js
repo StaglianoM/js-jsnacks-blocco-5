@@ -7,3 +7,4 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
+console.log(people.map(person => person.name).join(', '));
